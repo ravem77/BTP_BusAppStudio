@@ -5,17 +5,10 @@
 				"ShowAllFilters": false,
 				"_Type": "Control.Type.FilterFeedbackBar"
 			},
-			"_Name": "SectionedTable0",
 			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
 			"Sections": [
 				{
-					"Header": {
-						"_Name": "SectionHeader_RiskManagementService",
-						"AccessoryType": "None",
-						"UseTopPadding": true,
-						"Caption": "RiskManagementService",
-						"_Type": "SectionCommon.Type.Header"
-					},
 					"Separators": {
 						"TopSectionSeparator": false,
 						"BottomSectionSeparator": true,
@@ -23,33 +16,58 @@
 						"FooterSeparator": true,
 						"ControlSeparator": true
 					},
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable_RiskManagementService",
+					"Header": {
+						"_Type": "SectionCommon.Type.Header",
+						"_Name": "SectionHeader_RiskManagementService",
+						"AccessoryType": "None",
+						"UseTopPadding": true,
+						"Caption": "RiskManagementService"
+					},
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
 					"Buttons": [
 						{
-							"OnPress": "/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton0",
 							"Title": "Mitigations",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_List.action"
 						},
 						{
-							"OnPress": "/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton1",
 							"Title": "Risks",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_List.action"
 						}
 					],
-					"_Name": "SectionButtonTable_RiskManagementService",
-					"_Type": "Section.Type.ButtonTable"
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Leading"
+					}
 				}
 			]
 		}
 	],
-	"_Name": "Main",
 	"_Type": "Page",
-	"Caption": "Main",
+	"_Name": "Main",
+	"Caption": "Risk Management",
 	"PrefersLargeCaption": true,
 	"ActionBar": {
 		"Items": [

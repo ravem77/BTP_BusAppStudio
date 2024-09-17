@@ -28,218 +28,218 @@ module.exports = "Draft_DraftAdministrativeData=Draft_DraftAdministrativeData\nD
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 let application_app = __webpack_require__(/*! ./Application.app */ "./build.definitions/Application.app")
-	let risksmobile_actions_application_appupdate_action = __webpack_require__(/*! ./risksmobile/Actions/Application/AppUpdate.action */ "./build.definitions/risksmobile/Actions/Application/AppUpdate.action")
-	let risksmobile_actions_application_appupdatefailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/Application/AppUpdateFailureMessage.action */ "./build.definitions/risksmobile/Actions/Application/AppUpdateFailureMessage.action")
-	let risksmobile_actions_application_appupdateprogressbanner_action = __webpack_require__(/*! ./risksmobile/Actions/Application/AppUpdateProgressBanner.action */ "./build.definitions/risksmobile/Actions/Application/AppUpdateProgressBanner.action")
-	let risksmobile_actions_application_appupdatesuccessmessage_action = __webpack_require__(/*! ./risksmobile/Actions/Application/AppUpdateSuccessMessage.action */ "./build.definitions/risksmobile/Actions/Application/AppUpdateSuccessMessage.action")
-	let risksmobile_actions_application_logout_action = __webpack_require__(/*! ./risksmobile/Actions/Application/Logout.action */ "./build.definitions/risksmobile/Actions/Application/Logout.action")
-	let risksmobile_actions_application_navtoabout_action = __webpack_require__(/*! ./risksmobile/Actions/Application/NavToAbout.action */ "./build.definitions/risksmobile/Actions/Application/NavToAbout.action")
-	let risksmobile_actions_application_navtoactivitylog_action = __webpack_require__(/*! ./risksmobile/Actions/Application/NavToActivityLog.action */ "./build.definitions/risksmobile/Actions/Application/NavToActivityLog.action")
-	let risksmobile_actions_application_navtosupport_action = __webpack_require__(/*! ./risksmobile/Actions/Application/NavToSupport.action */ "./build.definitions/risksmobile/Actions/Application/NavToSupport.action")
-	let risksmobile_actions_application_onwillupdate_action = __webpack_require__(/*! ./risksmobile/Actions/Application/OnWillUpdate.action */ "./build.definitions/risksmobile/Actions/Application/OnWillUpdate.action")
-	let risksmobile_actions_application_reset_action = __webpack_require__(/*! ./risksmobile/Actions/Application/Reset.action */ "./build.definitions/risksmobile/Actions/Application/Reset.action")
-	let risksmobile_actions_application_resetmessage_action = __webpack_require__(/*! ./risksmobile/Actions/Application/ResetMessage.action */ "./build.definitions/risksmobile/Actions/Application/ResetMessage.action")
-	let risksmobile_actions_application_usermenupopover_action = __webpack_require__(/*! ./risksmobile/Actions/Application/UserMenuPopover.action */ "./build.definitions/risksmobile/Actions/Application/UserMenuPopover.action")
-	let risksmobile_actions_closemodalpage_cancel_action = __webpack_require__(/*! ./risksmobile/Actions/CloseModalPage_Cancel.action */ "./build.definitions/risksmobile/Actions/CloseModalPage_Cancel.action")
-	let risksmobile_actions_closemodalpage_complete_action = __webpack_require__(/*! ./risksmobile/Actions/CloseModalPage_Complete.action */ "./build.definitions/risksmobile/Actions/CloseModalPage_Complete.action")
-	let risksmobile_actions_closepage_action = __webpack_require__(/*! ./risksmobile/Actions/ClosePage.action */ "./build.definitions/risksmobile/Actions/ClosePage.action")
-	let risksmobile_actions_createentityfailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/CreateEntityFailureMessage.action */ "./build.definitions/risksmobile/Actions/CreateEntityFailureMessage.action")
-	let risksmobile_actions_createentitysuccessmessage_action = __webpack_require__(/*! ./risksmobile/Actions/CreateEntitySuccessMessage.action */ "./build.definitions/risksmobile/Actions/CreateEntitySuccessMessage.action")
-	let risksmobile_actions_deleteconfirmation_action = __webpack_require__(/*! ./risksmobile/Actions/DeleteConfirmation.action */ "./build.definitions/risksmobile/Actions/DeleteConfirmation.action")
-	let risksmobile_actions_deleteentityfailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/DeleteEntityFailureMessage.action */ "./build.definitions/risksmobile/Actions/DeleteEntityFailureMessage.action")
-	let risksmobile_actions_deleteentitysuccessmessage_action = __webpack_require__(/*! ./risksmobile/Actions/DeleteEntitySuccessMessage.action */ "./build.definitions/risksmobile/Actions/DeleteEntitySuccessMessage.action")
-	let risksmobile_actions_draftdiscardentity_action = __webpack_require__(/*! ./risksmobile/Actions/DraftDiscardEntity.action */ "./build.definitions/risksmobile/Actions/DraftDiscardEntity.action")
-	let risksmobile_actions_drafteditentity_action = __webpack_require__(/*! ./risksmobile/Actions/DraftEditEntity.action */ "./build.definitions/risksmobile/Actions/DraftEditEntity.action")
-	let risksmobile_actions_draftsaveentity_action = __webpack_require__(/*! ./risksmobile/Actions/DraftSaveEntity.action */ "./build.definitions/risksmobile/Actions/DraftSaveEntity.action")
-	let risksmobile_actions_genericbannermessage_action = __webpack_require__(/*! ./risksmobile/Actions/GenericBannerMessage.action */ "./build.definitions/risksmobile/Actions/GenericBannerMessage.action")
-	let risksmobile_actions_genericmessagebox_action = __webpack_require__(/*! ./risksmobile/Actions/GenericMessageBox.action */ "./build.definitions/risksmobile/Actions/GenericMessageBox.action")
-	let risksmobile_actions_genericnavigation_action = __webpack_require__(/*! ./risksmobile/Actions/GenericNavigation.action */ "./build.definitions/risksmobile/Actions/GenericNavigation.action")
-	let risksmobile_actions_generictoastmessage_action = __webpack_require__(/*! ./risksmobile/Actions/GenericToastMessage.action */ "./build.definitions/risksmobile/Actions/GenericToastMessage.action")
-	let risksmobile_actions_logging_loguploadfailure_action = __webpack_require__(/*! ./risksmobile/Actions/Logging/LogUploadFailure.action */ "./build.definitions/risksmobile/Actions/Logging/LogUploadFailure.action")
-	let risksmobile_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./risksmobile/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/risksmobile/Actions/Logging/LogUploadSuccessful.action")
-	let risksmobile_actions_logging_uploadlog_action = __webpack_require__(/*! ./risksmobile/Actions/Logging/UploadLog.action */ "./build.definitions/risksmobile/Actions/Logging/UploadLog.action")
-	let risksmobile_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./risksmobile/Actions/Logging/UploadLogProgress.action */ "./build.definitions/risksmobile/Actions/Logging/UploadLogProgress.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_mitigations_createentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_CreateEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_CreateEntity.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_mitigations_createrisks_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_CreateRisks.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_CreateRisks.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_mitigations_deleteentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_DeleteEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_DeleteEntity.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_mitigations_detailpopover_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_DetailPopover.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_DetailPopover.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_mitigations_updateentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_UpdateEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_UpdateEntity.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_create_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Create.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Create.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_createrisks_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_CreateRisks.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_CreateRisks.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_detail_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Detail.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Detail.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_edit_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Edit.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Edit.action")
-	let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_list_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_List.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_List.action")
-	let risksmobile_actions_riskmanagementservice_risks_navtorisks_create_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Create.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Create.action")
-	let risksmobile_actions_riskmanagementservice_risks_navtorisks_detail_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Detail.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Detail.action")
-	let risksmobile_actions_riskmanagementservice_risks_navtorisks_edit_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Edit.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Edit.action")
-	let risksmobile_actions_riskmanagementservice_risks_navtorisks_list_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/NavToRisks_List.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_List.action")
-	let risksmobile_actions_riskmanagementservice_risks_risks_createentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/Risks_CreateEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/Risks_CreateEntity.action")
-	let risksmobile_actions_riskmanagementservice_risks_risks_deleteentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/Risks_DeleteEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/Risks_DeleteEntity.action")
-	let risksmobile_actions_riskmanagementservice_risks_risks_updateentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/Risks_UpdateEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/Risks_UpdateEntity.action")
-	let risksmobile_actions_riskmanagementservice_service_initializeonline_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Service/InitializeOnline.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Service/InitializeOnline.action")
-	let risksmobile_actions_riskmanagementservice_service_initializeonlinefailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Service/InitializeOnlineFailureMessage.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Service/InitializeOnlineFailureMessage.action")
-	let risksmobile_actions_updateentityfailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/UpdateEntityFailureMessage.action */ "./build.definitions/risksmobile/Actions/UpdateEntityFailureMessage.action")
-	let risksmobile_actions_updateentitysuccessmessage_action = __webpack_require__(/*! ./risksmobile/Actions/UpdateEntitySuccessMessage.action */ "./build.definitions/risksmobile/Actions/UpdateEntitySuccessMessage.action")
-	let risksmobile_globals_application_appdefinition_version_global = __webpack_require__(/*! ./risksmobile/Globals/Application/AppDefinition_Version.global */ "./build.definitions/risksmobile/Globals/Application/AppDefinition_Version.global")
-	let risksmobile_globals_application_applicationname_global = __webpack_require__(/*! ./risksmobile/Globals/Application/ApplicationName.global */ "./build.definitions/risksmobile/Globals/Application/ApplicationName.global")
-	let risksmobile_globals_application_supportemail_global = __webpack_require__(/*! ./risksmobile/Globals/Application/SupportEmail.global */ "./build.definitions/risksmobile/Globals/Application/SupportEmail.global")
-	let risksmobile_globals_application_supportphone_global = __webpack_require__(/*! ./risksmobile/Globals/Application/SupportPhone.global */ "./build.definitions/risksmobile/Globals/Application/SupportPhone.global")
-	let risksmobile_i18n_i18n_properties = __webpack_require__(/*! ./risksmobile/i18n/i18n.properties */ "./build.definitions/risksmobile/i18n/i18n.properties")
-	let risksmobile_jsconfig_json = __webpack_require__(/*! ./risksmobile/jsconfig.json */ "./build.definitions/risksmobile/jsconfig.json")
-	let risksmobile_pages_application_about_page = __webpack_require__(/*! ./risksmobile/Pages/Application/About.page */ "./build.definitions/risksmobile/Pages/Application/About.page")
-	let risksmobile_pages_application_support_page = __webpack_require__(/*! ./risksmobile/Pages/Application/Support.page */ "./build.definitions/risksmobile/Pages/Application/Support.page")
-	let risksmobile_pages_application_useractivitylog_page = __webpack_require__(/*! ./risksmobile/Pages/Application/UserActivityLog.page */ "./build.definitions/risksmobile/Pages/Application/UserActivityLog.page")
-	let risksmobile_pages_main_page = __webpack_require__(/*! ./risksmobile/Pages/Main.page */ "./build.definitions/risksmobile/Pages/Main.page")
-	let risksmobile_pages_riskmanagementservice_mitigations_mitigations_create_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Create.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Create.page")
-	let risksmobile_pages_riskmanagementservice_mitigations_mitigations_createrisks_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_CreateRisks.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_CreateRisks.page")
-	let risksmobile_pages_riskmanagementservice_mitigations_mitigations_detail_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Detail.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Detail.page")
-	let risksmobile_pages_riskmanagementservice_mitigations_mitigations_edit_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Edit.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Edit.page")
-	let risksmobile_pages_riskmanagementservice_mitigations_mitigations_list_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_List.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_List.page")
-	let risksmobile_pages_riskmanagementservice_risks_risks_create_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Risks/Risks_Create.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Risks/Risks_Create.page")
-	let risksmobile_pages_riskmanagementservice_risks_risks_detail_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Risks/Risks_Detail.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Risks/Risks_Detail.page")
-	let risksmobile_pages_riskmanagementservice_risks_risks_edit_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Risks/Risks_Edit.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Risks/Risks_Edit.page")
-	let risksmobile_pages_riskmanagementservice_risks_risks_list_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Risks/Risks_List.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Risks/Risks_List.page")
-	let risksmobile_rules_application_appupdatefailure_js = __webpack_require__(/*! ./risksmobile/Rules/Application/AppUpdateFailure.js */ "./build.definitions/risksmobile/Rules/Application/AppUpdateFailure.js")
-	let risksmobile_rules_application_appupdatesuccess_js = __webpack_require__(/*! ./risksmobile/Rules/Application/AppUpdateSuccess.js */ "./build.definitions/risksmobile/Rules/Application/AppUpdateSuccess.js")
-	let risksmobile_rules_application_clientismultiusermode_js = __webpack_require__(/*! ./risksmobile/Rules/Application/ClientIsMultiUserMode.js */ "./build.definitions/risksmobile/Rules/Application/ClientIsMultiUserMode.js")
-	let risksmobile_rules_application_getclientsupportversions_js = __webpack_require__(/*! ./risksmobile/Rules/Application/GetClientSupportVersions.js */ "./build.definitions/risksmobile/Rules/Application/GetClientSupportVersions.js")
-	let risksmobile_rules_application_getclientversion_js = __webpack_require__(/*! ./risksmobile/Rules/Application/GetClientVersion.js */ "./build.definitions/risksmobile/Rules/Application/GetClientVersion.js")
-	let risksmobile_rules_application_onwillupdate_js = __webpack_require__(/*! ./risksmobile/Rules/Application/OnWillUpdate.js */ "./build.definitions/risksmobile/Rules/Application/OnWillUpdate.js")
-	let risksmobile_rules_application_resetappsettingsandlogout_js = __webpack_require__(/*! ./risksmobile/Rules/Application/ResetAppSettingsAndLogout.js */ "./build.definitions/risksmobile/Rules/Application/ResetAppSettingsAndLogout.js")
-	let risksmobile_rules_logging_loglevels_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/LogLevels.js */ "./build.definitions/risksmobile/Rules/Logging/LogLevels.js")
-	let risksmobile_rules_logging_settracecategories_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/SetTraceCategories.js */ "./build.definitions/risksmobile/Rules/Logging/SetTraceCategories.js")
-	let risksmobile_rules_logging_setuserloglevel_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/SetUserLogLevel.js */ "./build.definitions/risksmobile/Rules/Logging/SetUserLogLevel.js")
-	let risksmobile_rules_logging_togglelogging_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/ToggleLogging.js */ "./build.definitions/risksmobile/Rules/Logging/ToggleLogging.js")
-	let risksmobile_rules_logging_tracecategories_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/TraceCategories.js */ "./build.definitions/risksmobile/Rules/Logging/TraceCategories.js")
-	let risksmobile_rules_logging_userlogsetting_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/UserLogSetting.js */ "./build.definitions/risksmobile/Rules/Logging/UserLogSetting.js")
-	let risksmobile_rules_riskmanagementservice_mitigations_mitigations_cancel_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_Cancel.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_Cancel.js")
-	let risksmobile_rules_riskmanagementservice_mitigations_mitigations_createentity_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_CreateEntity.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_CreateEntity.js")
-	let risksmobile_rules_riskmanagementservice_mitigations_mitigations_createrisks_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_CreateRisks.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_CreateRisks.js")
-	let risksmobile_rules_riskmanagementservice_mitigations_mitigations_deleteconfirmation_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_DeleteConfirmation.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_DeleteConfirmation.js")
-	let risksmobile_rules_riskmanagementservice_mitigations_mitigations_updateentity_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_UpdateEntity.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_UpdateEntity.js")
-	let risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_createrisks_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/NavToMitigations_CreateRisks.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/NavToMitigations_CreateRisks.js")
-	let risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_edit_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/NavToMitigations_Edit.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/NavToMitigations_Edit.js")
-	let risksmobile_rules_riskmanagementservice_risks_navtorisks_edit_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/NavToRisks_Edit.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/NavToRisks_Edit.js")
-	let risksmobile_rules_riskmanagementservice_risks_risks_cancel_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/Risks_Cancel.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/Risks_Cancel.js")
-	let risksmobile_rules_riskmanagementservice_risks_risks_createentity_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/Risks_CreateEntity.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/Risks_CreateEntity.js")
-	let risksmobile_rules_riskmanagementservice_risks_risks_deleteconfirmation_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/Risks_DeleteConfirmation.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/Risks_DeleteConfirmation.js")
-	let risksmobile_rules_riskmanagementservice_risks_risks_updateentity_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/Risks_UpdateEntity.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/Risks_UpdateEntity.js")
-	let risksmobile_rules_service_initialize_js = __webpack_require__(/*! ./risksmobile/Rules/Service/Initialize.js */ "./build.definitions/risksmobile/Rules/Service/Initialize.js")
-	let risksmobile_services_riskmanagementservice_service = __webpack_require__(/*! ./risksmobile/Services/RiskManagementService.service */ "./build.definitions/risksmobile/Services/RiskManagementService.service")
-	let risksmobile_styles_styles_css = __webpack_require__(/*! ./risksmobile/Styles/Styles.css */ "./build.definitions/risksmobile/Styles/Styles.css")
-	let risksmobile_styles_styles_json = __webpack_require__(/*! ./risksmobile/Styles/Styles.json */ "./build.definitions/risksmobile/Styles/Styles.json")
-	let risksmobile_styles_styles_less = __webpack_require__(/*! ./risksmobile/Styles/Styles.less */ "./build.definitions/risksmobile/Styles/Styles.less")
-	let risksmobile_styles_styles_nss = __webpack_require__(/*! ./risksmobile/Styles/Styles.nss */ "./build.definitions/risksmobile/Styles/Styles.nss")
-	let tsconfig_json = __webpack_require__(/*! ./tsconfig.json */ "./build.definitions/tsconfig.json")
-	let version_mdkbundlerversion = __webpack_require__(/*! ./version.mdkbundlerversion */ "./build.definitions/version.mdkbundlerversion")
-	
-	module.exports = {
-		application_app : application_app,
-		risksmobile_actions_application_appupdate_action : risksmobile_actions_application_appupdate_action,
-		risksmobile_actions_application_appupdatefailuremessage_action : risksmobile_actions_application_appupdatefailuremessage_action,
-		risksmobile_actions_application_appupdateprogressbanner_action : risksmobile_actions_application_appupdateprogressbanner_action,
-		risksmobile_actions_application_appupdatesuccessmessage_action : risksmobile_actions_application_appupdatesuccessmessage_action,
-		risksmobile_actions_application_logout_action : risksmobile_actions_application_logout_action,
-		risksmobile_actions_application_navtoabout_action : risksmobile_actions_application_navtoabout_action,
-		risksmobile_actions_application_navtoactivitylog_action : risksmobile_actions_application_navtoactivitylog_action,
-		risksmobile_actions_application_navtosupport_action : risksmobile_actions_application_navtosupport_action,
-		risksmobile_actions_application_onwillupdate_action : risksmobile_actions_application_onwillupdate_action,
-		risksmobile_actions_application_reset_action : risksmobile_actions_application_reset_action,
-		risksmobile_actions_application_resetmessage_action : risksmobile_actions_application_resetmessage_action,
-		risksmobile_actions_application_usermenupopover_action : risksmobile_actions_application_usermenupopover_action,
-		risksmobile_actions_closemodalpage_cancel_action : risksmobile_actions_closemodalpage_cancel_action,
-		risksmobile_actions_closemodalpage_complete_action : risksmobile_actions_closemodalpage_complete_action,
-		risksmobile_actions_closepage_action : risksmobile_actions_closepage_action,
-		risksmobile_actions_createentityfailuremessage_action : risksmobile_actions_createentityfailuremessage_action,
-		risksmobile_actions_createentitysuccessmessage_action : risksmobile_actions_createentitysuccessmessage_action,
-		risksmobile_actions_deleteconfirmation_action : risksmobile_actions_deleteconfirmation_action,
-		risksmobile_actions_deleteentityfailuremessage_action : risksmobile_actions_deleteentityfailuremessage_action,
-		risksmobile_actions_deleteentitysuccessmessage_action : risksmobile_actions_deleteentitysuccessmessage_action,
-		risksmobile_actions_draftdiscardentity_action : risksmobile_actions_draftdiscardentity_action,
-		risksmobile_actions_drafteditentity_action : risksmobile_actions_drafteditentity_action,
-		risksmobile_actions_draftsaveentity_action : risksmobile_actions_draftsaveentity_action,
-		risksmobile_actions_genericbannermessage_action : risksmobile_actions_genericbannermessage_action,
-		risksmobile_actions_genericmessagebox_action : risksmobile_actions_genericmessagebox_action,
-		risksmobile_actions_genericnavigation_action : risksmobile_actions_genericnavigation_action,
-		risksmobile_actions_generictoastmessage_action : risksmobile_actions_generictoastmessage_action,
-		risksmobile_actions_logging_loguploadfailure_action : risksmobile_actions_logging_loguploadfailure_action,
-		risksmobile_actions_logging_loguploadsuccessful_action : risksmobile_actions_logging_loguploadsuccessful_action,
-		risksmobile_actions_logging_uploadlog_action : risksmobile_actions_logging_uploadlog_action,
-		risksmobile_actions_logging_uploadlogprogress_action : risksmobile_actions_logging_uploadlogprogress_action,
-		risksmobile_actions_riskmanagementservice_mitigations_mitigations_createentity_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_createentity_action,
-		risksmobile_actions_riskmanagementservice_mitigations_mitigations_createrisks_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_createrisks_action,
-		risksmobile_actions_riskmanagementservice_mitigations_mitigations_deleteentity_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_deleteentity_action,
-		risksmobile_actions_riskmanagementservice_mitigations_mitigations_detailpopover_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_detailpopover_action,
-		risksmobile_actions_riskmanagementservice_mitigations_mitigations_updateentity_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_updateentity_action,
-		risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_create_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_create_action,
-		risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_createrisks_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_createrisks_action,
-		risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_detail_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_detail_action,
-		risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_edit_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_edit_action,
-		risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_list_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_list_action,
-		risksmobile_actions_riskmanagementservice_risks_navtorisks_create_action : risksmobile_actions_riskmanagementservice_risks_navtorisks_create_action,
-		risksmobile_actions_riskmanagementservice_risks_navtorisks_detail_action : risksmobile_actions_riskmanagementservice_risks_navtorisks_detail_action,
-		risksmobile_actions_riskmanagementservice_risks_navtorisks_edit_action : risksmobile_actions_riskmanagementservice_risks_navtorisks_edit_action,
-		risksmobile_actions_riskmanagementservice_risks_navtorisks_list_action : risksmobile_actions_riskmanagementservice_risks_navtorisks_list_action,
-		risksmobile_actions_riskmanagementservice_risks_risks_createentity_action : risksmobile_actions_riskmanagementservice_risks_risks_createentity_action,
-		risksmobile_actions_riskmanagementservice_risks_risks_deleteentity_action : risksmobile_actions_riskmanagementservice_risks_risks_deleteentity_action,
-		risksmobile_actions_riskmanagementservice_risks_risks_updateentity_action : risksmobile_actions_riskmanagementservice_risks_risks_updateentity_action,
-		risksmobile_actions_riskmanagementservice_service_initializeonline_action : risksmobile_actions_riskmanagementservice_service_initializeonline_action,
-		risksmobile_actions_riskmanagementservice_service_initializeonlinefailuremessage_action : risksmobile_actions_riskmanagementservice_service_initializeonlinefailuremessage_action,
-		risksmobile_actions_updateentityfailuremessage_action : risksmobile_actions_updateentityfailuremessage_action,
-		risksmobile_actions_updateentitysuccessmessage_action : risksmobile_actions_updateentitysuccessmessage_action,
-		risksmobile_globals_application_appdefinition_version_global : risksmobile_globals_application_appdefinition_version_global,
-		risksmobile_globals_application_applicationname_global : risksmobile_globals_application_applicationname_global,
-		risksmobile_globals_application_supportemail_global : risksmobile_globals_application_supportemail_global,
-		risksmobile_globals_application_supportphone_global : risksmobile_globals_application_supportphone_global,
-		risksmobile_i18n_i18n_properties : risksmobile_i18n_i18n_properties,
-		risksmobile_jsconfig_json : risksmobile_jsconfig_json,
-		risksmobile_pages_application_about_page : risksmobile_pages_application_about_page,
-		risksmobile_pages_application_support_page : risksmobile_pages_application_support_page,
-		risksmobile_pages_application_useractivitylog_page : risksmobile_pages_application_useractivitylog_page,
-		risksmobile_pages_main_page : risksmobile_pages_main_page,
-		risksmobile_pages_riskmanagementservice_mitigations_mitigations_create_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_create_page,
-		risksmobile_pages_riskmanagementservice_mitigations_mitigations_createrisks_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_createrisks_page,
-		risksmobile_pages_riskmanagementservice_mitigations_mitigations_detail_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_detail_page,
-		risksmobile_pages_riskmanagementservice_mitigations_mitigations_edit_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_edit_page,
-		risksmobile_pages_riskmanagementservice_mitigations_mitigations_list_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_list_page,
-		risksmobile_pages_riskmanagementservice_risks_risks_create_page : risksmobile_pages_riskmanagementservice_risks_risks_create_page,
-		risksmobile_pages_riskmanagementservice_risks_risks_detail_page : risksmobile_pages_riskmanagementservice_risks_risks_detail_page,
-		risksmobile_pages_riskmanagementservice_risks_risks_edit_page : risksmobile_pages_riskmanagementservice_risks_risks_edit_page,
-		risksmobile_pages_riskmanagementservice_risks_risks_list_page : risksmobile_pages_riskmanagementservice_risks_risks_list_page,
-		risksmobile_rules_application_appupdatefailure_js : risksmobile_rules_application_appupdatefailure_js,
-		risksmobile_rules_application_appupdatesuccess_js : risksmobile_rules_application_appupdatesuccess_js,
-		risksmobile_rules_application_clientismultiusermode_js : risksmobile_rules_application_clientismultiusermode_js,
-		risksmobile_rules_application_getclientsupportversions_js : risksmobile_rules_application_getclientsupportversions_js,
-		risksmobile_rules_application_getclientversion_js : risksmobile_rules_application_getclientversion_js,
-		risksmobile_rules_application_onwillupdate_js : risksmobile_rules_application_onwillupdate_js,
-		risksmobile_rules_application_resetappsettingsandlogout_js : risksmobile_rules_application_resetappsettingsandlogout_js,
-		risksmobile_rules_logging_loglevels_js : risksmobile_rules_logging_loglevels_js,
-		risksmobile_rules_logging_settracecategories_js : risksmobile_rules_logging_settracecategories_js,
-		risksmobile_rules_logging_setuserloglevel_js : risksmobile_rules_logging_setuserloglevel_js,
-		risksmobile_rules_logging_togglelogging_js : risksmobile_rules_logging_togglelogging_js,
-		risksmobile_rules_logging_tracecategories_js : risksmobile_rules_logging_tracecategories_js,
-		risksmobile_rules_logging_userlogsetting_js : risksmobile_rules_logging_userlogsetting_js,
-		risksmobile_rules_riskmanagementservice_mitigations_mitigations_cancel_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_cancel_js,
-		risksmobile_rules_riskmanagementservice_mitigations_mitigations_createentity_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_createentity_js,
-		risksmobile_rules_riskmanagementservice_mitigations_mitigations_createrisks_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_createrisks_js,
-		risksmobile_rules_riskmanagementservice_mitigations_mitigations_deleteconfirmation_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_deleteconfirmation_js,
-		risksmobile_rules_riskmanagementservice_mitigations_mitigations_updateentity_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_updateentity_js,
-		risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_createrisks_js : risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_createrisks_js,
-		risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_edit_js : risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_edit_js,
-		risksmobile_rules_riskmanagementservice_risks_navtorisks_edit_js : risksmobile_rules_riskmanagementservice_risks_navtorisks_edit_js,
-		risksmobile_rules_riskmanagementservice_risks_risks_cancel_js : risksmobile_rules_riskmanagementservice_risks_risks_cancel_js,
-		risksmobile_rules_riskmanagementservice_risks_risks_createentity_js : risksmobile_rules_riskmanagementservice_risks_risks_createentity_js,
-		risksmobile_rules_riskmanagementservice_risks_risks_deleteconfirmation_js : risksmobile_rules_riskmanagementservice_risks_risks_deleteconfirmation_js,
-		risksmobile_rules_riskmanagementservice_risks_risks_updateentity_js : risksmobile_rules_riskmanagementservice_risks_risks_updateentity_js,
-		risksmobile_rules_service_initialize_js : risksmobile_rules_service_initialize_js,
-		risksmobile_services_riskmanagementservice_service : risksmobile_services_riskmanagementservice_service,
-		risksmobile_styles_styles_css : risksmobile_styles_styles_css,
-		risksmobile_styles_styles_json : risksmobile_styles_styles_json,
-		risksmobile_styles_styles_less : risksmobile_styles_styles_less,
-		risksmobile_styles_styles_nss : risksmobile_styles_styles_nss,
-		tsconfig_json : tsconfig_json,
-		version_mdkbundlerversion : version_mdkbundlerversion
-	}
+let risksmobile_actions_application_appupdate_action = __webpack_require__(/*! ./risksmobile/Actions/Application/AppUpdate.action */ "./build.definitions/risksmobile/Actions/Application/AppUpdate.action")
+let risksmobile_actions_application_appupdatefailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/Application/AppUpdateFailureMessage.action */ "./build.definitions/risksmobile/Actions/Application/AppUpdateFailureMessage.action")
+let risksmobile_actions_application_appupdateprogressbanner_action = __webpack_require__(/*! ./risksmobile/Actions/Application/AppUpdateProgressBanner.action */ "./build.definitions/risksmobile/Actions/Application/AppUpdateProgressBanner.action")
+let risksmobile_actions_application_appupdatesuccessmessage_action = __webpack_require__(/*! ./risksmobile/Actions/Application/AppUpdateSuccessMessage.action */ "./build.definitions/risksmobile/Actions/Application/AppUpdateSuccessMessage.action")
+let risksmobile_actions_application_logout_action = __webpack_require__(/*! ./risksmobile/Actions/Application/Logout.action */ "./build.definitions/risksmobile/Actions/Application/Logout.action")
+let risksmobile_actions_application_navtoabout_action = __webpack_require__(/*! ./risksmobile/Actions/Application/NavToAbout.action */ "./build.definitions/risksmobile/Actions/Application/NavToAbout.action")
+let risksmobile_actions_application_navtoactivitylog_action = __webpack_require__(/*! ./risksmobile/Actions/Application/NavToActivityLog.action */ "./build.definitions/risksmobile/Actions/Application/NavToActivityLog.action")
+let risksmobile_actions_application_navtosupport_action = __webpack_require__(/*! ./risksmobile/Actions/Application/NavToSupport.action */ "./build.definitions/risksmobile/Actions/Application/NavToSupport.action")
+let risksmobile_actions_application_onwillupdate_action = __webpack_require__(/*! ./risksmobile/Actions/Application/OnWillUpdate.action */ "./build.definitions/risksmobile/Actions/Application/OnWillUpdate.action")
+let risksmobile_actions_application_reset_action = __webpack_require__(/*! ./risksmobile/Actions/Application/Reset.action */ "./build.definitions/risksmobile/Actions/Application/Reset.action")
+let risksmobile_actions_application_resetmessage_action = __webpack_require__(/*! ./risksmobile/Actions/Application/ResetMessage.action */ "./build.definitions/risksmobile/Actions/Application/ResetMessage.action")
+let risksmobile_actions_application_usermenupopover_action = __webpack_require__(/*! ./risksmobile/Actions/Application/UserMenuPopover.action */ "./build.definitions/risksmobile/Actions/Application/UserMenuPopover.action")
+let risksmobile_actions_closemodalpage_cancel_action = __webpack_require__(/*! ./risksmobile/Actions/CloseModalPage_Cancel.action */ "./build.definitions/risksmobile/Actions/CloseModalPage_Cancel.action")
+let risksmobile_actions_closemodalpage_complete_action = __webpack_require__(/*! ./risksmobile/Actions/CloseModalPage_Complete.action */ "./build.definitions/risksmobile/Actions/CloseModalPage_Complete.action")
+let risksmobile_actions_closepage_action = __webpack_require__(/*! ./risksmobile/Actions/ClosePage.action */ "./build.definitions/risksmobile/Actions/ClosePage.action")
+let risksmobile_actions_createentityfailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/CreateEntityFailureMessage.action */ "./build.definitions/risksmobile/Actions/CreateEntityFailureMessage.action")
+let risksmobile_actions_createentitysuccessmessage_action = __webpack_require__(/*! ./risksmobile/Actions/CreateEntitySuccessMessage.action */ "./build.definitions/risksmobile/Actions/CreateEntitySuccessMessage.action")
+let risksmobile_actions_deleteconfirmation_action = __webpack_require__(/*! ./risksmobile/Actions/DeleteConfirmation.action */ "./build.definitions/risksmobile/Actions/DeleteConfirmation.action")
+let risksmobile_actions_deleteentityfailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/DeleteEntityFailureMessage.action */ "./build.definitions/risksmobile/Actions/DeleteEntityFailureMessage.action")
+let risksmobile_actions_deleteentitysuccessmessage_action = __webpack_require__(/*! ./risksmobile/Actions/DeleteEntitySuccessMessage.action */ "./build.definitions/risksmobile/Actions/DeleteEntitySuccessMessage.action")
+let risksmobile_actions_draftdiscardentity_action = __webpack_require__(/*! ./risksmobile/Actions/DraftDiscardEntity.action */ "./build.definitions/risksmobile/Actions/DraftDiscardEntity.action")
+let risksmobile_actions_drafteditentity_action = __webpack_require__(/*! ./risksmobile/Actions/DraftEditEntity.action */ "./build.definitions/risksmobile/Actions/DraftEditEntity.action")
+let risksmobile_actions_draftsaveentity_action = __webpack_require__(/*! ./risksmobile/Actions/DraftSaveEntity.action */ "./build.definitions/risksmobile/Actions/DraftSaveEntity.action")
+let risksmobile_actions_genericbannermessage_action = __webpack_require__(/*! ./risksmobile/Actions/GenericBannerMessage.action */ "./build.definitions/risksmobile/Actions/GenericBannerMessage.action")
+let risksmobile_actions_genericmessagebox_action = __webpack_require__(/*! ./risksmobile/Actions/GenericMessageBox.action */ "./build.definitions/risksmobile/Actions/GenericMessageBox.action")
+let risksmobile_actions_genericnavigation_action = __webpack_require__(/*! ./risksmobile/Actions/GenericNavigation.action */ "./build.definitions/risksmobile/Actions/GenericNavigation.action")
+let risksmobile_actions_generictoastmessage_action = __webpack_require__(/*! ./risksmobile/Actions/GenericToastMessage.action */ "./build.definitions/risksmobile/Actions/GenericToastMessage.action")
+let risksmobile_actions_logging_loguploadfailure_action = __webpack_require__(/*! ./risksmobile/Actions/Logging/LogUploadFailure.action */ "./build.definitions/risksmobile/Actions/Logging/LogUploadFailure.action")
+let risksmobile_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./risksmobile/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/risksmobile/Actions/Logging/LogUploadSuccessful.action")
+let risksmobile_actions_logging_uploadlog_action = __webpack_require__(/*! ./risksmobile/Actions/Logging/UploadLog.action */ "./build.definitions/risksmobile/Actions/Logging/UploadLog.action")
+let risksmobile_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./risksmobile/Actions/Logging/UploadLogProgress.action */ "./build.definitions/risksmobile/Actions/Logging/UploadLogProgress.action")
+let risksmobile_actions_riskmanagementservice_mitigations_mitigations_createentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_CreateEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_CreateEntity.action")
+let risksmobile_actions_riskmanagementservice_mitigations_mitigations_createrisks_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_CreateRisks.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_CreateRisks.action")
+let risksmobile_actions_riskmanagementservice_mitigations_mitigations_deleteentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_DeleteEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_DeleteEntity.action")
+let risksmobile_actions_riskmanagementservice_mitigations_mitigations_detailpopover_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_DetailPopover.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_DetailPopover.action")
+let risksmobile_actions_riskmanagementservice_mitigations_mitigations_updateentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_UpdateEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/Mitigations_UpdateEntity.action")
+let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_create_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Create.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Create.action")
+let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_createrisks_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_CreateRisks.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_CreateRisks.action")
+let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_detail_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Detail.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Detail.action")
+let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_edit_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Edit.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_Edit.action")
+let risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_list_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_List.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_List.action")
+let risksmobile_actions_riskmanagementservice_risks_navtorisks_create_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Create.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Create.action")
+let risksmobile_actions_riskmanagementservice_risks_navtorisks_detail_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Detail.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Detail.action")
+let risksmobile_actions_riskmanagementservice_risks_navtorisks_edit_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Edit.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_Edit.action")
+let risksmobile_actions_riskmanagementservice_risks_navtorisks_list_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/NavToRisks_List.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_List.action")
+let risksmobile_actions_riskmanagementservice_risks_risks_createentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/Risks_CreateEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/Risks_CreateEntity.action")
+let risksmobile_actions_riskmanagementservice_risks_risks_deleteentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/Risks_DeleteEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/Risks_DeleteEntity.action")
+let risksmobile_actions_riskmanagementservice_risks_risks_updateentity_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Risks/Risks_UpdateEntity.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Risks/Risks_UpdateEntity.action")
+let risksmobile_actions_riskmanagementservice_service_initializeonline_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Service/InitializeOnline.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Service/InitializeOnline.action")
+let risksmobile_actions_riskmanagementservice_service_initializeonlinefailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/RiskManagementService/Service/InitializeOnlineFailureMessage.action */ "./build.definitions/risksmobile/Actions/RiskManagementService/Service/InitializeOnlineFailureMessage.action")
+let risksmobile_actions_updateentityfailuremessage_action = __webpack_require__(/*! ./risksmobile/Actions/UpdateEntityFailureMessage.action */ "./build.definitions/risksmobile/Actions/UpdateEntityFailureMessage.action")
+let risksmobile_actions_updateentitysuccessmessage_action = __webpack_require__(/*! ./risksmobile/Actions/UpdateEntitySuccessMessage.action */ "./build.definitions/risksmobile/Actions/UpdateEntitySuccessMessage.action")
+let risksmobile_globals_application_appdefinition_version_global = __webpack_require__(/*! ./risksmobile/Globals/Application/AppDefinition_Version.global */ "./build.definitions/risksmobile/Globals/Application/AppDefinition_Version.global")
+let risksmobile_globals_application_applicationname_global = __webpack_require__(/*! ./risksmobile/Globals/Application/ApplicationName.global */ "./build.definitions/risksmobile/Globals/Application/ApplicationName.global")
+let risksmobile_globals_application_supportemail_global = __webpack_require__(/*! ./risksmobile/Globals/Application/SupportEmail.global */ "./build.definitions/risksmobile/Globals/Application/SupportEmail.global")
+let risksmobile_globals_application_supportphone_global = __webpack_require__(/*! ./risksmobile/Globals/Application/SupportPhone.global */ "./build.definitions/risksmobile/Globals/Application/SupportPhone.global")
+let risksmobile_i18n_i18n_properties = __webpack_require__(/*! ./risksmobile/i18n/i18n.properties */ "./build.definitions/risksmobile/i18n/i18n.properties")
+let risksmobile_jsconfig_json = __webpack_require__(/*! ./risksmobile/jsconfig.json */ "./build.definitions/risksmobile/jsconfig.json")
+let risksmobile_pages_application_about_page = __webpack_require__(/*! ./risksmobile/Pages/Application/About.page */ "./build.definitions/risksmobile/Pages/Application/About.page")
+let risksmobile_pages_application_support_page = __webpack_require__(/*! ./risksmobile/Pages/Application/Support.page */ "./build.definitions/risksmobile/Pages/Application/Support.page")
+let risksmobile_pages_application_useractivitylog_page = __webpack_require__(/*! ./risksmobile/Pages/Application/UserActivityLog.page */ "./build.definitions/risksmobile/Pages/Application/UserActivityLog.page")
+let risksmobile_pages_main_page = __webpack_require__(/*! ./risksmobile/Pages/Main.page */ "./build.definitions/risksmobile/Pages/Main.page")
+let risksmobile_pages_riskmanagementservice_mitigations_mitigations_create_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Create.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Create.page")
+let risksmobile_pages_riskmanagementservice_mitigations_mitigations_createrisks_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_CreateRisks.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_CreateRisks.page")
+let risksmobile_pages_riskmanagementservice_mitigations_mitigations_detail_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Detail.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Detail.page")
+let risksmobile_pages_riskmanagementservice_mitigations_mitigations_edit_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Edit.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_Edit.page")
+let risksmobile_pages_riskmanagementservice_mitigations_mitigations_list_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_List.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Mitigations/Mitigations_List.page")
+let risksmobile_pages_riskmanagementservice_risks_risks_create_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Risks/Risks_Create.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Risks/Risks_Create.page")
+let risksmobile_pages_riskmanagementservice_risks_risks_detail_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Risks/Risks_Detail.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Risks/Risks_Detail.page")
+let risksmobile_pages_riskmanagementservice_risks_risks_edit_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Risks/Risks_Edit.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Risks/Risks_Edit.page")
+let risksmobile_pages_riskmanagementservice_risks_risks_list_page = __webpack_require__(/*! ./risksmobile/Pages/RiskManagementService_Risks/Risks_List.page */ "./build.definitions/risksmobile/Pages/RiskManagementService_Risks/Risks_List.page")
+let risksmobile_rules_application_appupdatefailure_js = __webpack_require__(/*! ./risksmobile/Rules/Application/AppUpdateFailure.js */ "./build.definitions/risksmobile/Rules/Application/AppUpdateFailure.js")
+let risksmobile_rules_application_appupdatesuccess_js = __webpack_require__(/*! ./risksmobile/Rules/Application/AppUpdateSuccess.js */ "./build.definitions/risksmobile/Rules/Application/AppUpdateSuccess.js")
+let risksmobile_rules_application_clientismultiusermode_js = __webpack_require__(/*! ./risksmobile/Rules/Application/ClientIsMultiUserMode.js */ "./build.definitions/risksmobile/Rules/Application/ClientIsMultiUserMode.js")
+let risksmobile_rules_application_getclientsupportversions_js = __webpack_require__(/*! ./risksmobile/Rules/Application/GetClientSupportVersions.js */ "./build.definitions/risksmobile/Rules/Application/GetClientSupportVersions.js")
+let risksmobile_rules_application_getclientversion_js = __webpack_require__(/*! ./risksmobile/Rules/Application/GetClientVersion.js */ "./build.definitions/risksmobile/Rules/Application/GetClientVersion.js")
+let risksmobile_rules_application_onwillupdate_js = __webpack_require__(/*! ./risksmobile/Rules/Application/OnWillUpdate.js */ "./build.definitions/risksmobile/Rules/Application/OnWillUpdate.js")
+let risksmobile_rules_application_resetappsettingsandlogout_js = __webpack_require__(/*! ./risksmobile/Rules/Application/ResetAppSettingsAndLogout.js */ "./build.definitions/risksmobile/Rules/Application/ResetAppSettingsAndLogout.js")
+let risksmobile_rules_logging_loglevels_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/LogLevels.js */ "./build.definitions/risksmobile/Rules/Logging/LogLevels.js")
+let risksmobile_rules_logging_settracecategories_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/SetTraceCategories.js */ "./build.definitions/risksmobile/Rules/Logging/SetTraceCategories.js")
+let risksmobile_rules_logging_setuserloglevel_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/SetUserLogLevel.js */ "./build.definitions/risksmobile/Rules/Logging/SetUserLogLevel.js")
+let risksmobile_rules_logging_togglelogging_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/ToggleLogging.js */ "./build.definitions/risksmobile/Rules/Logging/ToggleLogging.js")
+let risksmobile_rules_logging_tracecategories_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/TraceCategories.js */ "./build.definitions/risksmobile/Rules/Logging/TraceCategories.js")
+let risksmobile_rules_logging_userlogsetting_js = __webpack_require__(/*! ./risksmobile/Rules/Logging/UserLogSetting.js */ "./build.definitions/risksmobile/Rules/Logging/UserLogSetting.js")
+let risksmobile_rules_riskmanagementservice_mitigations_mitigations_cancel_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_Cancel.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_Cancel.js")
+let risksmobile_rules_riskmanagementservice_mitigations_mitigations_createentity_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_CreateEntity.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_CreateEntity.js")
+let risksmobile_rules_riskmanagementservice_mitigations_mitigations_createrisks_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_CreateRisks.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_CreateRisks.js")
+let risksmobile_rules_riskmanagementservice_mitigations_mitigations_deleteconfirmation_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_DeleteConfirmation.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_DeleteConfirmation.js")
+let risksmobile_rules_riskmanagementservice_mitigations_mitigations_updateentity_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_UpdateEntity.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/Mitigations_UpdateEntity.js")
+let risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_createrisks_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/NavToMitigations_CreateRisks.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/NavToMitigations_CreateRisks.js")
+let risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_edit_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Mitigations/NavToMitigations_Edit.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Mitigations/NavToMitigations_Edit.js")
+let risksmobile_rules_riskmanagementservice_risks_navtorisks_edit_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/NavToRisks_Edit.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/NavToRisks_Edit.js")
+let risksmobile_rules_riskmanagementservice_risks_risks_cancel_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/Risks_Cancel.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/Risks_Cancel.js")
+let risksmobile_rules_riskmanagementservice_risks_risks_createentity_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/Risks_CreateEntity.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/Risks_CreateEntity.js")
+let risksmobile_rules_riskmanagementservice_risks_risks_deleteconfirmation_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/Risks_DeleteConfirmation.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/Risks_DeleteConfirmation.js")
+let risksmobile_rules_riskmanagementservice_risks_risks_updateentity_js = __webpack_require__(/*! ./risksmobile/Rules/RiskManagementService/Risks/Risks_UpdateEntity.js */ "./build.definitions/risksmobile/Rules/RiskManagementService/Risks/Risks_UpdateEntity.js")
+let risksmobile_rules_service_initialize_js = __webpack_require__(/*! ./risksmobile/Rules/Service/Initialize.js */ "./build.definitions/risksmobile/Rules/Service/Initialize.js")
+let risksmobile_services_riskmanagementservice_service = __webpack_require__(/*! ./risksmobile/Services/RiskManagementService.service */ "./build.definitions/risksmobile/Services/RiskManagementService.service")
+let risksmobile_styles_styles_css = __webpack_require__(/*! ./risksmobile/Styles/Styles.css */ "./build.definitions/risksmobile/Styles/Styles.css")
+let risksmobile_styles_styles_json = __webpack_require__(/*! ./risksmobile/Styles/Styles.json */ "./build.definitions/risksmobile/Styles/Styles.json")
+let risksmobile_styles_styles_less = __webpack_require__(/*! ./risksmobile/Styles/Styles.less */ "./build.definitions/risksmobile/Styles/Styles.less")
+let risksmobile_styles_styles_nss = __webpack_require__(/*! ./risksmobile/Styles/Styles.nss */ "./build.definitions/risksmobile/Styles/Styles.nss")
+let tsconfig_json = __webpack_require__(/*! ./tsconfig.json */ "./build.definitions/tsconfig.json")
+let version_mdkbundlerversion = __webpack_require__(/*! ./version.mdkbundlerversion */ "./build.definitions/version.mdkbundlerversion")
+
+module.exports = {
+	application_app : application_app,
+	risksmobile_actions_application_appupdate_action : risksmobile_actions_application_appupdate_action,
+	risksmobile_actions_application_appupdatefailuremessage_action : risksmobile_actions_application_appupdatefailuremessage_action,
+	risksmobile_actions_application_appupdateprogressbanner_action : risksmobile_actions_application_appupdateprogressbanner_action,
+	risksmobile_actions_application_appupdatesuccessmessage_action : risksmobile_actions_application_appupdatesuccessmessage_action,
+	risksmobile_actions_application_logout_action : risksmobile_actions_application_logout_action,
+	risksmobile_actions_application_navtoabout_action : risksmobile_actions_application_navtoabout_action,
+	risksmobile_actions_application_navtoactivitylog_action : risksmobile_actions_application_navtoactivitylog_action,
+	risksmobile_actions_application_navtosupport_action : risksmobile_actions_application_navtosupport_action,
+	risksmobile_actions_application_onwillupdate_action : risksmobile_actions_application_onwillupdate_action,
+	risksmobile_actions_application_reset_action : risksmobile_actions_application_reset_action,
+	risksmobile_actions_application_resetmessage_action : risksmobile_actions_application_resetmessage_action,
+	risksmobile_actions_application_usermenupopover_action : risksmobile_actions_application_usermenupopover_action,
+	risksmobile_actions_closemodalpage_cancel_action : risksmobile_actions_closemodalpage_cancel_action,
+	risksmobile_actions_closemodalpage_complete_action : risksmobile_actions_closemodalpage_complete_action,
+	risksmobile_actions_closepage_action : risksmobile_actions_closepage_action,
+	risksmobile_actions_createentityfailuremessage_action : risksmobile_actions_createentityfailuremessage_action,
+	risksmobile_actions_createentitysuccessmessage_action : risksmobile_actions_createentitysuccessmessage_action,
+	risksmobile_actions_deleteconfirmation_action : risksmobile_actions_deleteconfirmation_action,
+	risksmobile_actions_deleteentityfailuremessage_action : risksmobile_actions_deleteentityfailuremessage_action,
+	risksmobile_actions_deleteentitysuccessmessage_action : risksmobile_actions_deleteentitysuccessmessage_action,
+	risksmobile_actions_draftdiscardentity_action : risksmobile_actions_draftdiscardentity_action,
+	risksmobile_actions_drafteditentity_action : risksmobile_actions_drafteditentity_action,
+	risksmobile_actions_draftsaveentity_action : risksmobile_actions_draftsaveentity_action,
+	risksmobile_actions_genericbannermessage_action : risksmobile_actions_genericbannermessage_action,
+	risksmobile_actions_genericmessagebox_action : risksmobile_actions_genericmessagebox_action,
+	risksmobile_actions_genericnavigation_action : risksmobile_actions_genericnavigation_action,
+	risksmobile_actions_generictoastmessage_action : risksmobile_actions_generictoastmessage_action,
+	risksmobile_actions_logging_loguploadfailure_action : risksmobile_actions_logging_loguploadfailure_action,
+	risksmobile_actions_logging_loguploadsuccessful_action : risksmobile_actions_logging_loguploadsuccessful_action,
+	risksmobile_actions_logging_uploadlog_action : risksmobile_actions_logging_uploadlog_action,
+	risksmobile_actions_logging_uploadlogprogress_action : risksmobile_actions_logging_uploadlogprogress_action,
+	risksmobile_actions_riskmanagementservice_mitigations_mitigations_createentity_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_createentity_action,
+	risksmobile_actions_riskmanagementservice_mitigations_mitigations_createrisks_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_createrisks_action,
+	risksmobile_actions_riskmanagementservice_mitigations_mitigations_deleteentity_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_deleteentity_action,
+	risksmobile_actions_riskmanagementservice_mitigations_mitigations_detailpopover_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_detailpopover_action,
+	risksmobile_actions_riskmanagementservice_mitigations_mitigations_updateentity_action : risksmobile_actions_riskmanagementservice_mitigations_mitigations_updateentity_action,
+	risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_create_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_create_action,
+	risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_createrisks_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_createrisks_action,
+	risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_detail_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_detail_action,
+	risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_edit_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_edit_action,
+	risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_list_action : risksmobile_actions_riskmanagementservice_mitigations_navtomitigations_list_action,
+	risksmobile_actions_riskmanagementservice_risks_navtorisks_create_action : risksmobile_actions_riskmanagementservice_risks_navtorisks_create_action,
+	risksmobile_actions_riskmanagementservice_risks_navtorisks_detail_action : risksmobile_actions_riskmanagementservice_risks_navtorisks_detail_action,
+	risksmobile_actions_riskmanagementservice_risks_navtorisks_edit_action : risksmobile_actions_riskmanagementservice_risks_navtorisks_edit_action,
+	risksmobile_actions_riskmanagementservice_risks_navtorisks_list_action : risksmobile_actions_riskmanagementservice_risks_navtorisks_list_action,
+	risksmobile_actions_riskmanagementservice_risks_risks_createentity_action : risksmobile_actions_riskmanagementservice_risks_risks_createentity_action,
+	risksmobile_actions_riskmanagementservice_risks_risks_deleteentity_action : risksmobile_actions_riskmanagementservice_risks_risks_deleteentity_action,
+	risksmobile_actions_riskmanagementservice_risks_risks_updateentity_action : risksmobile_actions_riskmanagementservice_risks_risks_updateentity_action,
+	risksmobile_actions_riskmanagementservice_service_initializeonline_action : risksmobile_actions_riskmanagementservice_service_initializeonline_action,
+	risksmobile_actions_riskmanagementservice_service_initializeonlinefailuremessage_action : risksmobile_actions_riskmanagementservice_service_initializeonlinefailuremessage_action,
+	risksmobile_actions_updateentityfailuremessage_action : risksmobile_actions_updateentityfailuremessage_action,
+	risksmobile_actions_updateentitysuccessmessage_action : risksmobile_actions_updateentitysuccessmessage_action,
+	risksmobile_globals_application_appdefinition_version_global : risksmobile_globals_application_appdefinition_version_global,
+	risksmobile_globals_application_applicationname_global : risksmobile_globals_application_applicationname_global,
+	risksmobile_globals_application_supportemail_global : risksmobile_globals_application_supportemail_global,
+	risksmobile_globals_application_supportphone_global : risksmobile_globals_application_supportphone_global,
+	risksmobile_i18n_i18n_properties : risksmobile_i18n_i18n_properties,
+	risksmobile_jsconfig_json : risksmobile_jsconfig_json,
+	risksmobile_pages_application_about_page : risksmobile_pages_application_about_page,
+	risksmobile_pages_application_support_page : risksmobile_pages_application_support_page,
+	risksmobile_pages_application_useractivitylog_page : risksmobile_pages_application_useractivitylog_page,
+	risksmobile_pages_main_page : risksmobile_pages_main_page,
+	risksmobile_pages_riskmanagementservice_mitigations_mitigations_create_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_create_page,
+	risksmobile_pages_riskmanagementservice_mitigations_mitigations_createrisks_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_createrisks_page,
+	risksmobile_pages_riskmanagementservice_mitigations_mitigations_detail_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_detail_page,
+	risksmobile_pages_riskmanagementservice_mitigations_mitigations_edit_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_edit_page,
+	risksmobile_pages_riskmanagementservice_mitigations_mitigations_list_page : risksmobile_pages_riskmanagementservice_mitigations_mitigations_list_page,
+	risksmobile_pages_riskmanagementservice_risks_risks_create_page : risksmobile_pages_riskmanagementservice_risks_risks_create_page,
+	risksmobile_pages_riskmanagementservice_risks_risks_detail_page : risksmobile_pages_riskmanagementservice_risks_risks_detail_page,
+	risksmobile_pages_riskmanagementservice_risks_risks_edit_page : risksmobile_pages_riskmanagementservice_risks_risks_edit_page,
+	risksmobile_pages_riskmanagementservice_risks_risks_list_page : risksmobile_pages_riskmanagementservice_risks_risks_list_page,
+	risksmobile_rules_application_appupdatefailure_js : risksmobile_rules_application_appupdatefailure_js,
+	risksmobile_rules_application_appupdatesuccess_js : risksmobile_rules_application_appupdatesuccess_js,
+	risksmobile_rules_application_clientismultiusermode_js : risksmobile_rules_application_clientismultiusermode_js,
+	risksmobile_rules_application_getclientsupportversions_js : risksmobile_rules_application_getclientsupportversions_js,
+	risksmobile_rules_application_getclientversion_js : risksmobile_rules_application_getclientversion_js,
+	risksmobile_rules_application_onwillupdate_js : risksmobile_rules_application_onwillupdate_js,
+	risksmobile_rules_application_resetappsettingsandlogout_js : risksmobile_rules_application_resetappsettingsandlogout_js,
+	risksmobile_rules_logging_loglevels_js : risksmobile_rules_logging_loglevels_js,
+	risksmobile_rules_logging_settracecategories_js : risksmobile_rules_logging_settracecategories_js,
+	risksmobile_rules_logging_setuserloglevel_js : risksmobile_rules_logging_setuserloglevel_js,
+	risksmobile_rules_logging_togglelogging_js : risksmobile_rules_logging_togglelogging_js,
+	risksmobile_rules_logging_tracecategories_js : risksmobile_rules_logging_tracecategories_js,
+	risksmobile_rules_logging_userlogsetting_js : risksmobile_rules_logging_userlogsetting_js,
+	risksmobile_rules_riskmanagementservice_mitigations_mitigations_cancel_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_cancel_js,
+	risksmobile_rules_riskmanagementservice_mitigations_mitigations_createentity_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_createentity_js,
+	risksmobile_rules_riskmanagementservice_mitigations_mitigations_createrisks_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_createrisks_js,
+	risksmobile_rules_riskmanagementservice_mitigations_mitigations_deleteconfirmation_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_deleteconfirmation_js,
+	risksmobile_rules_riskmanagementservice_mitigations_mitigations_updateentity_js : risksmobile_rules_riskmanagementservice_mitigations_mitigations_updateentity_js,
+	risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_createrisks_js : risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_createrisks_js,
+	risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_edit_js : risksmobile_rules_riskmanagementservice_mitigations_navtomitigations_edit_js,
+	risksmobile_rules_riskmanagementservice_risks_navtorisks_edit_js : risksmobile_rules_riskmanagementservice_risks_navtorisks_edit_js,
+	risksmobile_rules_riskmanagementservice_risks_risks_cancel_js : risksmobile_rules_riskmanagementservice_risks_risks_cancel_js,
+	risksmobile_rules_riskmanagementservice_risks_risks_createentity_js : risksmobile_rules_riskmanagementservice_risks_risks_createentity_js,
+	risksmobile_rules_riskmanagementservice_risks_risks_deleteconfirmation_js : risksmobile_rules_riskmanagementservice_risks_risks_deleteconfirmation_js,
+	risksmobile_rules_riskmanagementservice_risks_risks_updateentity_js : risksmobile_rules_riskmanagementservice_risks_risks_updateentity_js,
+	risksmobile_rules_service_initialize_js : risksmobile_rules_service_initialize_js,
+	risksmobile_services_riskmanagementservice_service : risksmobile_services_riskmanagementservice_service,
+	risksmobile_styles_styles_css : risksmobile_styles_styles_css,
+	risksmobile_styles_styles_json : risksmobile_styles_styles_json,
+	risksmobile_styles_styles_less : risksmobile_styles_styles_less,
+	risksmobile_styles_styles_nss : risksmobile_styles_styles_nss,
+	tsconfig_json : tsconfig_json,
+	version_mdkbundlerversion : version_mdkbundlerversion
+}
 
 /***/ }),
 
@@ -1238,7 +1238,7 @@ div.MDKPage
 
 { color: @mdkYellow1; background-color: @mdkRed1; }
 */
-	`, "",{"version":3,"sources":["webpack://./build.definitions/risksmobile/Styles/Styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\ndiv.MDKPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n\t"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./build.definitions/risksmobile/Styles/Styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\ndiv.MDKPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n"],"sourceRoot":""}]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -1458,7 +1458,7 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":true,"_Type
   \*******************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Name":"SectionedTable0","_Type":"Control.Type.SectionedTable","Sections":[{"Header":{"_Name":"SectionHeader_RiskManagementService","AccessoryType":"None","UseTopPadding":true,"Caption":"RiskManagementService","_Type":"SectionCommon.Type.Header"},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Buttons":[{"OnPress":"/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_List.action","Alignment":"Center","Title":"Mitigations","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_List.action","Alignment":"Center","Title":"Risks","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"}],"_Name":"SectionButtonTable_RiskManagementService","_Type":"Section.Type.ButtonTable"}]}],"_Name":"Main","_Type":"Page","Caption":"Main","PrefersLargeCaption":true,"ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/risksmobile/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable_RiskManagementService","Header":{"_Type":"SectionCommon.Type.Header","_Name":"SectionHeader_RiskManagementService","AccessoryType":"None","UseTopPadding":true,"Caption":"RiskManagementService"},"Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton0","Title":"Mitigations","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/risksmobile/Actions/RiskManagementService/Mitigations/NavToMitigations_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton1","Title":"Risks","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/risksmobile/Actions/RiskManagementService/Risks/NavToRisks_List.action"}],"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"}}]}],"_Type":"Page","_Name":"Main","Caption":"Risk Management","PrefersLargeCaption":true,"ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/risksmobile/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1"}}
 
 /***/ }),
 
